@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1B32391B-2591-7830-E7C4-2A7B734A1088}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CarmeraMove.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\FogComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\TaaComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\FogModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\GrainModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\UserLutModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Models\VignetteModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\PostProcessingContext.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\PostProcessingModel.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\PostProcessingProfile.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+     <Compile Include="Assets\DreamForestTree\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\DreamForestTree\Script\FreeCam.cs" />
+     <Compile Include="Assets\DreamForestTree\Script\ScrollUVWater.cs" />
+     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\ItemCan.cs" />
+     <Compile Include="Assets\PlayerBall.cs" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <None Include="Assets\DreamForestTree\ReadMe.txt" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Fog.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\ACES.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Uber.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+     <None Include="Assets\DreamForestTree\IMPORTANT.txt" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Common.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\UI\Trackball.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Bloom.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\TAA.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\TAA.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\GrainGen.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\FXAA.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Bloom.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
